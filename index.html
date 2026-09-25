@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+
+  <title>In Theory Studios | Websites for small businesses</title>
+  <meta name="description" content="In Theory Studios is a two-person web design and development studio. We design, build and launch clean, affordable websites for small businesses.">
+  <meta name="theme-color" content="#fbf1de">
+
+  <!-- Social sharing (Open Graph). TODO when we have a domain and a preview image:
+       add <meta property="og:url" content="https://YOUR-DOMAIN/">
+       and <meta property="og:image" content="https://YOUR-DOMAIN/og-image.png"> (1200x630 px) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="In Theory Studios | Websites for small businesses">
+  <meta property="og:description" content="Clean, affordable websites for businesses that are ready to look as good online as they do in real life.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23FFC94A'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23EF4B2B'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400..800&family=Young+Serif&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "In Theory Studios",
+    "description": "A two-person web design and development studio building clean, affordable websites for small businesses.",
+    "email": "nehaghauri004@gmail.com",
+    "telephone": "+923004112158",
+    "founder": [
+      { "@type": "Person", "name": "Neha Saleem" },
+      { "@type": "Person", "name": "Khadijah Hassan" }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav" id="nav">
+    <nav class="nav__pill" aria-label="Main">
+      <a class="nav__logo" href="#top" aria-label="In Theory Studios, back to top">
+        <span class="nav__mark" aria-hidden="true"></span>
+        <span class="nav__word">In Theory<span class="nav__studios">&nbsp;Studios</span></span>
+      </a>
+
+      <div class="nav__links">
+        <span class="nav__indicator" aria-hidden="true"></span>
+        <ul class="nav__list">
+          <li><a href="#what-we-do">What we do</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#how-we-work">How we work</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav__toggle-label">Menu</span>
+      </button>
+      <a class="btn btn--sm nav__cta" href="#contact">Start a project</a>
+    </nav>
+  </header>
+
+  <!-- Full-screen menu for phones -->
+  <div class="menu" id="menu" aria-hidden="true" inert>
+    <ul class="menu__list">
+      <li style="--i:0"><a href="#what-we-do">What we do</a></li>
+      <li style="--i:1"><a href="#how-we-think">How we think</a></li>
+      <li style="--i:2"><a href="#work">Work</a></li>
+      <li style="--i:3"><a href="#how-we-work">How we work</a></li>
+      <li style="--i:4"><a href="#about">About</a></li>
+      <li style="--i:5"><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu__foot">
+      <a href="https://wa.me/923004112158" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:nehaghauri004@gmail.com">Email</a>
+    </div>
+  </div>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ===== HERO: an Instagram profile turns into a website as you scroll ===== -->
+    <section class="hero" id="top" data-chapter="Intro" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__line">Your Instagram is great.</span>
+          <span class="hero__line hero__line--two">Now give it a home.</span>
+        </h1>
+        <p class="hero__sub">We design, build and launch clean, affordable websites for businesses that are ready to look as good online as they do in real life.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#contact" data-magnetic>Start a project</a>
+          <a class="btn btn--ghost" href="#work">See our work</a>
+        </div>
+        <p class="hero__note">Two software engineers. No agency headache.</p>
+        <p class="hero__hint" aria-hidden="true">Keep scrolling and watch the phone.</p>
+      </div>
+
+      <div class="hero__track">
+        <div class="hero__stage">
+          <div class="hero__deviceArea">
+            <p class="sr-only">As you scroll, an example Instagram profile turns into an example business website.</p>
+
+            <!-- The mockup. All text in here is sample content (aria-hidden).
+                 Swap the wording for NuTreats or another client when we have real material. -->
+            <div class="device-space" aria-hidden="true">
+              <div class="plate"></div>
+              <div class="device-wrap">
+                <div class="device">
+                  <span class="notch" data-el="notch"></span>
+                  <div class="toolbar" data-el="toolbar">
+                    <span class="dots"><i></i><i></i><i></i></span>
+                    <span class="url">yourbusiness.com</span>
+                  </div>
+
+                  <div class="avatar" data-el="avatar"></div>
+                  <div class="name" data-el="name">Your Business</div>
+                  <div class="handle" data-el="handle">@yourbusiness</div>
+                  <p class="bio" data-el="bio">Good stuff, made with care.<br>Order by DM.</p>
+                  <p class="linkbio" data-el="linkbio">link in bio</p>
+                  <div class="btn-mock" data-el="btn"><span class="btn-mock__a">Message</span><span class="btn-mock__b">Order</span></div>
+
+                  <div class="tile tile--1" data-el="t1"></div>
+                  <div class="tile tile--2" data-el="t2"><span class="tile__cap">Product</span></div>
+                  <div class="tile tile--3" data-el="t3"><span class="tile__cap">Product</span></div>
+                  <div class="tile tile--4" data-el="t4"><span class="tile__cap">Product</span></div>
+                  <div class="tile tile--5" data-el="t5"></div>
+                  <div class="tile tile--6" data-el="t6"></div>
+                  <div class="tile tile--7" data-el="t7"></div>
+                  <div class="tile tile--8" data-el="t8"></div>
+                  <div class="tile tile--9" data-el="t9"></div>
+
+                  <div class="tabbar" data-el="tabbar"><i></i><i></i><i></i><i></i><i></i></div>
+
+                  <div class="nav-links" data-el="navlinks"><span>Shop</span><span>About</span><span>Contact</span></div>
+                  <h3 class="site-h" data-el="sith">Everything you sell, in one place.</h3>
+                  <p class="site-p" data-el="sitp">Fresh, clear and easy to order from.</p>
+                  <div class="site-btn" data-el="sitb">Shop now</div>
+                  <p class="site-label" data-el="sitl">From our feed</p>
+                </div>
+                <div class="live-pill" data-el="live"><i></i>Live</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__steps" aria-hidden="true">
+            <span class="hero__step hero__step--a">Instagram</span>
+            <span class="hero__bar"><i></i></span>
+            <span class="hero__step hero__step--b">Your website</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHAT WE DO: pick a service, see what it looks like ===== -->
+    <section class="section" id="what-we-do" data-chapter="What we do" aria-labelledby="what-title">
+      <div class="container">
+        <h2 id="what-title">Design, build, launch. All from the same two people.</h2>
+        <p class="lead">Websites for small businesses, from the first sketch to the day you go live. Pick a service to see what it looks like.</p>
+
+        <!-- To edit the wording of a service, change the text inside its svc-panel below. -->
+        <div class="services__body" data-services>
+          <div class="svc-tabs" role="tablist" aria-label="Our services">
+            <button class="svc-tab" role="tab" type="button" id="tab-design" aria-selected="true" aria-controls="panel-design">
+              <span class="svc-tab__mark" aria-hidden="true"></span>
+              <span class="svc-tab__name">Design</span>
+              <span class="svc-tab__line">Looks like your business, not a template.</span>
+            </button>
+            <button class="svc-tab" role="tab" type="button" id="tab-dev" aria-selected="false" aria-controls="panel-dev" tabindex="-1">
+              <span class="svc-tab__mark" aria-hidden="true"></span>
+              <span class="svc-tab__name">Development</span>
+              <span class="svc-tab__line">Works on phones, tablets and computers.</span>
+            </button>
+            <button class="svc-tab" role="tab" type="button" id="tab-live" aria-selected="false" aria-controls="panel-live" tabindex="-1">
+              <span class="svc-tab__mark" aria-hidden="true"></span>
+              <span class="svc-tab__name">Going live</span>
+              <span class="svc-tab__line">We handle the technical bits.</span>
+            </button>
+            <button class="svc-tab" role="tab" type="button" id="tab-redesign" aria-selected="false" aria-controls="panel-redesign" tabindex="-1">
+              <span class="svc-tab__mark" aria-hidden="true"></span>
+              <span class="svc-tab__name">Redesign</span>
+              <span class="svc-tab__line">A tired website, made clear again.</span>
+            </button>
+            <button class="svc-tab" role="tab" type="button" id="tab-words" aria-selected="false" aria-controls="panel-words" tabindex="-1">
+              <span class="svc-tab__mark" aria-hidden="true"></span>
+              <span class="svc-tab__name">Words &amp; search</span>
+              <span class="svc-tab__line">Clear text and the search basics.</span>
+            </button>
+          </div>
+
+          <div class="svc-panels">
+
+            <!-- 1. DESIGN: the pieces snap into place -->
+            <div class="svc-panel" role="tabpanel" id="panel-design" aria-labelledby="tab-design" tabindex="0">
+              <div class="svc-stage svc-stage--design">
+                <div class="svc-stage__inner" aria-hidden="true">
+                  <div class="mini-win" style="left:40px;top:36px;width:400px;height:312px">
+                    <div class="mini-win__bar"><i></i><i></i><i></i></div>
+                    <div class="mini-win__body">
+                      <span class="d-blk d-logo" style="left:14px;top:12px;--dx:-90px;--dy:-40px;--r:-40deg;--d:.05s"></span>
+                      <span class="d-blk d-bar" style="left:236px;top:18px;width:34px;height:6px;--dx:60px;--dy:-30px;--r:20deg;--d:.12s"></span>
+                      <span class="d-blk d-bar" style="left:280px;top:18px;width:34px;height:6px;--dx:40px;--dy:-50px;--r:-30deg;--d:.18s"></span>
+                      <span class="d-blk d-pill" style="left:324px;top:12px;width:58px;height:18px;--dx:80px;--dy:-20px;--r:25deg;--d:.24s"></span>
+                      <span class="d-blk d-ink" style="left:14px;top:54px;width:190px;height:16px;--dx:-120px;--dy:20px;--r:-8deg;--d:.3s"></span>
+                      <span class="d-blk d-ink" style="left:14px;top:76px;width:140px;height:16px;--dx:-100px;--dy:60px;--r:10deg;--d:.36s"></span>
+                      <span class="d-blk d-bar" style="left:14px;top:104px;width:170px;height:7px;--dx:-60px;--dy:90px;--r:-6deg;--d:.42s"></span>
+                      <span class="d-blk d-bar" style="left:14px;top:116px;width:120px;height:7px;--dx:-40px;--dy:100px;--r:8deg;--d:.46s"></span>
+                      <span class="d-blk d-pill" style="left:14px;top:136px;width:84px;height:24px;--dx:-70px;--dy:130px;--r:-14deg;--d:.52s"></span>
+                      <span class="d-blk d-tile" style="left:232px;top:50px;width:150px;height:118px;--tc:var(--tomato);--tp:var(--butter);--dx:120px;--dy:-10px;--r:14deg;--d:.4s"></span>
+                      <span class="d-blk d-tile" style="left:14px;top:186px;width:116px;height:80px;--tc:var(--peach);--tp:var(--tomato);--dx:-40px;--dy:160px;--r:-12deg;--d:.6s"></span>
+                      <span class="d-blk d-tile" style="left:140px;top:186px;width:116px;height:80px;--tc:var(--butter);--tp:var(--ink);--dx:10px;--dy:170px;--r:9deg;--d:.68s"></span>
+                      <span class="d-blk d-tile" style="left:266px;top:186px;width:116px;height:80px;--tc:var(--ink);--tp:var(--paper);--dx:60px;--dy:150px;--r:-10deg;--d:.76s"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="svc-bar"><button class="svc-replay" type="button">Replay</button></div>
+              <div class="svc-info">
+                <p class="svc-info__lead">We design the look of your website around your business and your customers.</p>
+                <dl class="svc-info__list">
+                  <div><dt>Who it's for</dt><dd>Businesses with no website yet, or one that doesn't look like them.</dd></div>
+                  <div><dt>What you get</dt><dd>A design made for your business, not a template with your logo on it.</dd></div>
+                </dl>
+              </div>
+            </div>
+
+            <!-- 2. DEVELOPMENT: the same page reflows from computer to phone -->
+            <div class="svc-panel" role="tabpanel" id="panel-dev" aria-labelledby="tab-dev" tabindex="0" hidden>
+              <div class="svc-stage svc-stage--dev">
+                <div class="svc-stage__inner" aria-hidden="true">
+                  <div class="mini-win dev-win">
+                    <div class="mini-win__bar"><i></i><i></i><i></i></div>
+                    <div class="dev-body">
+                      <div class="dev-nav">
+                        <span class="dev-logo"></span>
+                        <span class="dev-links"><i></i><i></i><i></i></span>
+                        <span class="dev-burger"><i></i><i></i><i></i></span>
+                      </div>
+                      <div class="dev-hero">
+                        <div class="dev-text"><b></b><b></b><s></s><span class="dev-btn"></span></div>
+                        <div class="dev-img pt" style="--tc:var(--tomato);--tp:var(--butter)"></div>
+                      </div>
+                      <div class="dev-cards">
+                        <div class="pt" style="--tc:var(--peach);--tp:var(--tomato)"></div>
+                        <div class="pt" style="--tc:var(--butter);--tp:var(--ink)"></div>
+                        <div class="pt" style="--tc:var(--ink);--tp:var(--paper)"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="dev-tag"><span class="dev-tag__a">Computer</span><span class="dev-tag__b">Phone</span></span>
+                </div>
+              </div>
+              <div class="svc-bar"><button class="svc-replay" type="button">Replay</button></div>
+              <div class="svc-info">
+                <p class="svc-info__lead">We build the design into a working website that looks right on phones, tablets and computers.</p>
+                <dl class="svc-info__list">
+                  <div><dt>Who it's for</dt><dd>Any business whose customers will open the site on a phone.</dd></div>
+                  <div><dt>What you get</dt><dd>A fast website that works on every screen, with buttons that message you on WhatsApp or open your email.</dd></div>
+                </dl>
+              </div>
+            </div>
+
+            <!-- 3. GOING LIVE: the switch gets flipped -->
+            <div class="svc-panel" role="tabpanel" id="panel-live" aria-labelledby="tab-live" tabindex="0" hidden>
+              <div class="svc-stage svc-stage--live">
+                <div class="svc-stage__inner" aria-hidden="true">
+                  <div class="mini-win live-win">
+                    <div class="mini-win__bar"><i></i><i></i><i></i><span class="live-url"><span class="live-url__txt">yourbusiness.com</span></span></div>
+                    <div class="mini-win__body">
+                      <div class="live-page">
+                        <span class="lp pt" style="left:12px;top:10px;width:112px;height:76px;--tc:var(--tomato);--tp:var(--butter)"></span>
+                        <span class="lp lp-ink" style="left:136px;top:14px;width:170px;height:12px"></span>
+                        <span class="lp lp-ink" style="left:136px;top:32px;width:120px;height:12px"></span>
+                        <span class="lp lp-pill" style="left:136px;top:58px;width:64px;height:22px"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="live-card">
+                    <ul class="live-list">
+                      <li style="--d:1.5s"><i class="tick"></i>Your own web address</li>
+                      <li style="--d:2.1s"><i class="tick"></i>Tested on phones and computers</li>
+                      <li style="--d:2.7s"><i class="tick"></i>Live for everyone</li>
+                    </ul>
+                    <div class="live-switch">
+                      <span class="live-switch__label"><em class="off">Offline</em><em class="on">Live</em></span>
+                      <span class="live-switch__track"><span class="live-switch__knob"></span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="svc-bar"><button class="svc-replay" type="button">Replay</button></div>
+              <div class="svc-info">
+                <p class="svc-info__lead">We put the finished website on the internet and take care of the technical setup.</p>
+                <dl class="svc-info__list">
+                  <div><dt>Who it's for</dt><dd>Anyone who would rather not learn what hosting and domains are.</dd></div>
+                  <div><dt>What you get</dt><dd>Your site live at your own web address, set up and tested on phones and computers.</dd></div>
+                </dl>
+              </div>
+            </div>
+
+            <!-- 4. REDESIGN: drag to compare -->
+            <div class="svc-panel" role="tabpanel" id="panel-redesign" aria-labelledby="tab-redesign" tabindex="0" hidden>
+              <div class="svc-stage svc-stage--redesign">
+                <div class="svc-stage__inner">
+                  <div class="cmp">
+                    <div class="cmp__layer old" aria-hidden="true">
+                      <div class="old__banner">WELCOME TO OUR WEBSITE!!!</div>
+                      <div class="old__menu"><span>Home</span><span>About Us</span><span>Products</span><span>Contact</span><span>Guestbook</span><span>Links</span></div>
+                      <div class="old__h">Our Products</div>
+                      <p class="old__p">We sell many things. Please look around. Call us for details. Prices are subject to change. Thank you for visiting our site.</p>
+                      <div class="old__img">photo</div>
+                      <div class="old__grid"><span>Item</span><span>Item</span><span>Item</span><span>Item</span><span>Item</span><span>Item</span></div>
+                      <div class="old__new">NEW!!</div>
+                      <div class="old__foot">Last updated: a while ago</div>
+                      <span class="cmp__tag cmp__tag--l">Before</span>
+                    </div>
+                    <div class="cmp__layer cmp__after" aria-hidden="true">
+                      <span class="nw-mark"></span>
+                      <span class="nw-name">Your Business</span>
+                      <span class="nw-links"><i>Shop</i><i>About</i><i>Contact</i></span>
+                      <span class="nw-order">Order</span>
+                      <span class="nw-h">Everything you sell, in one place.</span>
+                      <span class="nw-p">Fresh, clear and easy to order from.</span>
+                      <span class="nw-btn">Shop now</span>
+                      <span class="nw-tile pt" style="left:250px;top:52px;width:132px;height:110px;--tc:var(--tomato);--tp:var(--butter)"></span>
+                      <span class="nw-tile pt" style="left:14px;top:186px;width:116px;height:80px;--tc:var(--peach);--tp:var(--tomato)"></span>
+                      <span class="nw-tile pt" style="left:140px;top:186px;width:116px;height:80px;--tc:var(--butter);--tp:var(--ink)"></span>
+                      <span class="nw-tile pt" style="left:266px;top:186px;width:116px;height:80px;--tc:var(--ink);--tp:var(--paper)"></span>
+                      <span class="cmp__tag cmp__tag--r">After</span>
+                    </div>
+                    <input class="cmp__range" type="range" min="0" max="100" value="50" aria-label="Drag to compare an old website with its redesign">
+                    <span class="cmp__line" aria-hidden="true"></span>
+                    <span class="cmp__grip" aria-hidden="true"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="svc-bar"><span class="svc-hint">Drag the handle to compare.</span><button class="svc-replay" type="button">Replay</button></div>
+              <div class="svc-info">
+                <p class="svc-info__lead">We take a website that's out of date and make it clear, current and easy to use.</p>
+                <dl class="svc-info__list">
+                  <div><dt>Who it's for</dt><dd>Businesses whose website has fallen behind the business.</dd></div>
+                  <div><dt>What you get</dt><dd>A fresh design and a clearer layout, with the content that still works carried over.</dd></div>
+                </dl>
+              </div>
+            </div>
+
+            <!-- 5. WORDS & SEARCH: placeholder text turns into real copy -->
+            <div class="svc-panel" role="tabpanel" id="panel-words" aria-labelledby="tab-words" tabindex="0" hidden>
+              <div class="svc-stage svc-stage--words">
+                <div class="svc-stage__inner" aria-hidden="true">
+                  <div class="w-page">
+                    <span class="w-photo pt" style="--tc:var(--tomato);--tp:var(--butter)"></span>
+                    <div class="w-line w-line--h" style="--d:.3s"><span class="skel skel--h"></span><span class="txt">Everything you sell, in one place.</span></div>
+                    <div class="w-line w-line--p" style="--d:.9s"><span class="skel skel--p"></span><span class="txt">Fresh, clear and easy to order from. Pick what you like and message us. That's it.</span></div>
+                    <div class="w-line w-line--b" style="--d:1.5s"><span class="skel skel--b"></span><span class="txt"><span class="w-btn">Order now</span></span></div>
+                  </div>
+                  <div class="w-search">
+                    <p class="w-search__title" style="--d:1.9s">How it shows up in search</p>
+                    <div style="--d:2.2s"><span class="w-tag">Address</span><p class="w-url">yourbusiness.com</p></div>
+                    <div style="--d:2.5s"><span class="w-tag">Page title</span><p class="w-ptitle">Your Business | Everything you sell, in one place</p></div>
+                    <div style="--d:2.8s"><span class="w-tag">Description</span><p class="w-desc">Fresh, clear and easy to order from. Pick what you like and message us.</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="svc-bar"><button class="svc-replay" type="button">Replay</button></div>
+              <div class="svc-info">
+                <p class="svc-info__lead">We write the text on your site in plain language, and set up the basics so search engines can understand it.</p>
+                <dl class="svc-info__list">
+                  <div><dt>Who it's for</dt><dd>Businesses that aren't sure what to say on their own website.</dd></div>
+                  <div><dt>What you get</dt><dd>Clear text for every page, plus page titles, descriptions and headings set up properly. We can't promise rankings, but we make sure your site is clear to people and to search engines.</dd></div>
+                </dl>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="services__foot">
+          <p>Not sure what you need? That's normal. And once you're live, we can keep looking after the site: updates and changes whenever you need them.</p>
+          <a class="btn" href="#contact">Tell us about your business</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW WE THINK ===== -->
+    <section class="section section--tint" id="how-we-think" data-chapter="How we think" aria-labelledby="think-title">
+      <div class="container think">
+        <div class="think__head">
+          <h2 id="think-title">A website should make sense to your customers on the first visit.</h2>
+        </div>
+        <ul class="think__list" data-think>
+          <li class="think__item">
+            <h3>Built around your business.</h3>
+            <p>We start with what you sell and who buys it, not with a template. Your site should look like you and nobody else.</p>
+          </li>
+          <li class="think__item">
+            <h3>Phone first.</h3>
+            <p>Many people will open your site on a phone, often from an Instagram link. So we design for that screen first, then scale up to bigger ones.</p>
+          </li>
+          <li class="think__item">
+            <h3>One team, start to finish.</h3>
+            <p>The same two people design it, build it and put it online. No hand-offs, and no explaining your business three times.</p>
+          </li>
+          <li class="think__item">
+            <h3>Plain language.</h3>
+            <p>We tell you what's happening in words you'd use yourself. No jargon, and no surprises about what's included.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section class="section" id="work" data-chapter="Work" aria-labelledby="work-title">
+      <div class="container">
+        <h2 id="work-title">The work so far.</h2>
+        <p class="lead">NuTreats is our first client project. We'll add real work as it's finished, and anything that isn't a real client project will always be labelled.</p>
+
+        <article class="case" data-case aria-labelledby="case-title">
+          <div class="case__visual">
+            <div class="seg-group" role="group" aria-label="Preview NuTreats on">
+              <button class="seg" type="button" data-view="desktop" aria-pressed="true">Computer</button>
+              <button class="seg" type="button" data-view="phone" aria-pressed="false">Phone</button>
+            </div>
+            <div class="case__stage">
+              <div class="case__device" data-view="desktop">
+                <div class="case__bar" aria-hidden="true"><i></i><i></i><i></i><span class="case__url"></span></div>
+                <div class="case__screen">
+                  <!-- SCREENSHOTS: when you have them, replace each <span> below with an image, e.g.
+                       <img src="nutreats-computer.jpg" alt="The NuTreats website on a computer" loading="lazy">
+                       <img src="nutreats-phone.jpg" alt="The NuTreats website on a phone" loading="lazy"> -->
+                  <div class="case__shot case__shot--desktop"><span>[ADD NUTREATS SCREENSHOT: COMPUTER]</span></div>
+                  <div class="case__shot case__shot--phone"><span>[ADD NUTREATS SCREENSHOT: PHONE]</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case__info">
+            <p class="tag">Client project</p>
+            <h3 id="case-title">NuTreats</h3>
+            <p class="case__desc">A local business that sells nutritional, preservative-free products and goods. We're building their website so more people can find them, see what they offer and get in touch.</p>
+            <dl class="case__list">
+              <div><dt>What we did</dt><dd>[ADD SERVICES: e.g. design, development, going live]</dd></div>
+              <div><dt>Status</dt><dd>[ADD STATUS: e.g. in progress, or live]</dd></div>
+            </dl>
+            <!-- When the site is live: remove the word "hidden" and put the real address in href -->
+            <a class="btn btn--ghost" href="#" target="_blank" rel="noopener" hidden>Visit the site</a>
+          </div>
+        </article>
+
+        <div class="more">
+          <article class="more__card">
+            <div class="more__art" aria-hidden="true">
+              <span class="pt" style="--tc:var(--tomato);--tp:var(--butter)"></span>
+              <span class="pt" style="--tc:var(--ink);--tp:var(--paper)"></span>
+              <span class="pt" style="--tc:var(--peach);--tp:var(--tomato)"></span>
+            </div>
+            <p class="tag tag--own">Our own site</p>
+            <h3>In Theory Studios</h3>
+            <p>You're looking at it. We designed and built this site ourselves, so it doubles as an example of how we work.</p>
+          </article>
+          <!-- To add a concept project later, copy the card above, change the tag to "Concept" and describe it honestly. -->
+          <article class="more__card more__card--next">
+            <h3>Your business next?</h3>
+            <p>We'd love to add yours. Tell us what you're building.</p>
+            <a class="btn" href="#contact">Tell us about your business</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW WE WORK ===== -->
+    <section class="section section--tint" id="how-we-work" data-chapter="How we work" aria-labelledby="process-title">
+      <div class="container process">
+        <div class="process__head">
+          <h2 id="process-title">Five steps, no surprises.</h2>
+          <p class="lead">You don't need to know anything technical. Here's what happens, and who does what.</p>
+          <p class="process__cta"><a class="btn" href="#contact">Start with step one</a></p>
+        </div>
+        <ol class="steps" data-steps>
+          <li class="step">
+            <span class="step__dot" aria-hidden="true"></span>
+            <div>
+              <p class="step__who step__who--you">You</p>
+              <h3>Tell us what you need</h3>
+              <p>Send us a message about your business: what you sell, what you have online now, and what isn't working. That's the whole brief.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__dot" aria-hidden="true"></span>
+            <div>
+              <p class="step__who step__who--us">Us</p>
+              <h3>We plan the website</h3>
+              <p>We work out which pages you need and what each one should say.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__dot" aria-hidden="true"></span>
+            <div>
+              <p class="step__who step__who--us">Us</p>
+              <h3>We design and build it</h3>
+              <p>We design the look, then build it so it works properly on phones and computers.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__dot" aria-hidden="true"></span>
+            <div>
+              <p class="step__who step__who--you">You</p>
+              <h3>You review it</h3>
+              <p>You look it over and tell us what to change.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__dot" aria-hidden="true"></span>
+            <div>
+              <p class="step__who step__who--us">Us</p>
+              <h3>We launch it</h3>
+              <p>We put it online at your own web address and check that everything works.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about" data-chapter="About" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__text">
+          <h2 id="about-title">Two engineers. One studio. No agency headache.</h2>
+          <p>We're Neha and Khadijah, two software engineers who design and build websites for businesses.</p>
+          <p>Plenty of good businesses run on Instagram, WhatsApp and word of mouth. That works, right up until a customer wants to see everything in one place, or just wants to know you're the real thing. That's the gap we fill. We design your site, build it, and take it live.</p>
+          <p>You talk to us directly. No account managers, no hand-offs, no jargon. Just two people who want your business to look as good online as it does in real life.</p>
+          <p>We like working with small and growing businesses: shops, cafés, brands, creators, local services. These are the ones with a great product and a website that hasn't caught up yet.</p>
+          <p class="about__cta">Have a business that needs a proper website?
+            <a class="btn" href="#contact">Tell us about your business</a>
+          </p>
+        </div>
+
+        <!-- PHOTOS: to add a photo, replace the whole <div class="portrait__slot">...</div>
+             with:  <img src="images/neha.jpg" alt="Neha Saleem" width="800" height="1000" loading="lazy">
+             Best size: portrait 4:5, at least 1200px wide. -->
+        <div class="about__photos">
+          <figure class="portrait portrait--a">
+            <img src="neha.jpeg" alt="Neha Saleem" width="800" height="1000" loading="lazy">
+            <figcaption>
+              <strong>Neha Saleem</strong>
+              <span>Software engineer</span>
+              <em>[ONE LINE ABOUT NEHA]</em>
+            </figcaption>
+          </figure>
+          <figure class="portrait portrait--b">
+            <img src="khz.jpeg" alt="Khadijah Hassan" width="800" height="1000" loading="lazy">
+            <figcaption>
+              <strong>Khadijah Hassan</strong>
+              <span>Software engineer</span>
+              <em>[ONE LINE ABOUT KHADIJAH]</em>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section--dark contact" id="contact" data-chapter="Contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Tell us what you're building.</h2>
+        <p class="lead">Have a business that needs a proper website? Send us a message. Tell us what you sell, what you have online now, and what isn't working.</p>
+
+        <div class="contact__actions">
+          <a class="btn btn--butter" href="https://wa.me/923004112158" target="_blank" rel="noopener">Message us on WhatsApp</a>
+          <a class="btn btn--light" href="mailto:nehaghauri004@gmail.com">Email us</a>
+        </div>
+
+        <ul class="contact__list">
+          <li><span>Email</span><a href="mailto:nehaghauri004@gmail.com">nehaghauri004@gmail.com</a></li>
+          <li><span>WhatsApp</span><a href="https://wa.me/923004112158" target="_blank" rel="noopener">+92 300 4112158</a></li>
+          <li><span>Instagram</span><b>[ADD HANDLE]</b></li>
+          <li><span>LinkedIn</span><b>[ADD LINK]</b></li>
+        </ul>
+
+        <div class="scaffold"><strong>Being built next:</strong> a short contact form ("What do you have now: nothing, Instagram only, or an old site?"). Until then, WhatsApp and email work.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>&copy; <span data-year>2026</span> In Theory Studios</p>
+      <a href="mailto:nehaghauri004@gmail.com">nehaghauri004@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="js/vendor/gsap.min.js" defer></script>
+  <script src="js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
